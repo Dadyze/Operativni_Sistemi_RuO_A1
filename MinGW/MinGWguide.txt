@@ -1,0 +1,13 @@
+Korak 1: Preuzimanje i Instalacija MinGW
+	Posjetite službenu web stranicu MinGW i preuzmite mingw-get-setup.exe.(fajl u attachmentu)
+Korak 2: Odabir Kompajlera
+	Nakon instalacije, pronađite i pokrenite MinGW Installation Manager (mingw-get.exe).
+	Označite željeni kompajler, na primjer, mingw32-base i mingw32-gcc-g++ za 32-bitnu verziju GCC i G++.
+Korak 3: Dodavanje PATH varijable
+	Desni klik na "This PC" ili "Computer" na desktopu, odaberite "Properties".
+	Kliknite na "Advanced system settings" > "Environment Variables".
+	U dijelu "System variables", pronađite i odaberite "Path", a zatim kliknite na "Edit".
+	Kliknite na "New" i dodajte put do mape gdje je instaliran MinGW (npr. C:\MinGW\bin).
+Korak 4: Provjera Verzije GCC Kompajlera
+	Otvorite Command Prompt ili PowerShell.
+	Unesite gcc --version i pritisnite Enter.
